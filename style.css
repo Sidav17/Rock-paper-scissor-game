@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    height: 10vh;
+    background-color: cadetblue;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1.5rem;
+    font-size: 5vh;
+}
+/* .container{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+} */
+.main{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.btns{
+    height: 25vmin;
+    /* background: #000; */
+}
+/* .btns:hover{
+} */
+.rock:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.paper:hover{
+    cursor: pointer;
+    opacity: 0.5;
+
+}
+.Scissors:hover{
+    cursor: pointer;
+    opacity: 0.5;
+
+}
+
+
+button{
+    height: 20vmin;
+    width: 20vmin;
+    margin: 3vh;
+    border-radius: 100%;
+    border: none;
+    background-color: blueviolet;
+}
+
+.result{
+   
+    height: 10vmin;
+    /* width: 59vmin; */
+    background-color: rgb(65, 81, 49);
+    font-size: 5vmin;
+    /* padding-left: 5vmin; */
+    margin-left: 30vmin;
+    margin-right: 30vmin;
+    border-radius: 10px;
+    display: inline;
+    /* color: rgba(0, 115, 255, 0.644); */
+
+
+} 
+
+.count{
+    height: 30vmin;
+    display: flex;
+    border-radius: 5px;
+    /* background-color: black; */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.counting{
+    width: 10vmin;
+    height: 18vmin;
+    background-color: white;
+    font-size: 5vmin;
+  
+    padding: 4vmin;
+    margin: 4vmin;
+}
+#personcount{
+    /* background-color:green; */
+}
+#drawcount{
+    /* background-color: rgb(82, 146, 146); */
+
+}
+#computercount{
+    /* background-color: rgb(41, 31, 31); */
+
+
+}
+#you{
+    height: 10vmin;
+}
+#comp{
+    height: 10vmin;
+
+}
+
+.page{
+
+    display: flex;
+
+}
+.containr{
+    width: 150vmin;
+    background: #ce7f7f;
+}
+
+.history{
+    width: 50vmin;
+    height: 100vmin;
+    background: #7ac9ba;
+   
+}
+
